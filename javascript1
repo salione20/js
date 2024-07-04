@@ -1,0 +1,13 @@
+let sum = 0;
+let fac =0
+for (let i = 1; i <= 5; i++) {
+  fac = 1;
+  for (let f = 2; f <= i; f++) {
+    fac =fac* f;
+    console.log(fac)
+  }
+  sum = sum + fac;
+  console.log(sum)
+}
+
+console.log(sum);
